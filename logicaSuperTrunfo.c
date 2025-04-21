@@ -52,8 +52,8 @@ int main() {
     // utilizando a função scanf para capturar as entradas.
     // utilize o código do primeiro desafio
 
-    struct Carta carta1 = {'A', "A01", "São Paulo", 12325000, 1521.11, 699.28, 50, 0, 0};
-    struct Carta carta2 = {'B', "B02", "Rio de Janeiro", 6748000, 1200.25, 300.50, 30, 0, 0};
+    struct Carta carta1 = {'A', "A01", "Brasil", 12325000, 1521.11, 699.28, 50, 0, 0};
+    struct Carta carta2 = {'B', "B02", "Argentina", 6748000, 1200.25, 300.50, 30, 0, 0};
     
       // Cálculos dos indicadores
       carta1.densidadePopulacional = carta1.populacao / carta1.area;
